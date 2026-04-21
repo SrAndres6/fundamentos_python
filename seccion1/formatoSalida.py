@@ -35,7 +35,7 @@ print(("  *****" + espacio) * 2)
 
 print("-" * 30)  # Separador
 
-# 4. Uso de apóstrofes en lugar de comillas
+# 4. Uso de comillas simples en lugar de comillas
 print('    *')
 print('   * *')
 print('  *   *')

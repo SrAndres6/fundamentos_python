@@ -273,3 +273,53 @@ Luego:
 
 Los paréntesis permiten controlar el orden de ejecución de las operaciones y mejorar la legibilidad del código.
 
+# session-4
+
+# Lab1: variables
+- codigo: 
+john = 3
+mary = 5
+adam = 6
+
+print(john, mary, adam)
+
+total_apples = john + mary + adam
+
+print(total_apples)
+print("Numero total de manzanas:", total_apples)
+
+- Explicacion:
+Se crean tres variables: john, mary y adam.
+Cada una almacena un número entero.
+Luego se suman las tres variables y se guarda el resultado en total_apples.
+Finalmente se imprime el resultado de varias formas.
+
+# Lab2: variables: un convertidor simple
+- codigo:
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = miles * 1.61
+kilometers_to_miles = kilometers / 1.61
+
+print(miles, "millas son", round(miles_to_kilometers, 2), "kilómetros")
+print(kilometers, "kilómetros son", round(kilometers_to_miles, 2), "millas")
+
+- Explicacion:
+Se definen dos variables: kilometers y miles.
+Luego se convierten una a otra usando multiplicación y división.
+Finalmente se imprime el resultado redondeado a dos decimales.
+
+# Lab3: operadores y expresiones
+- codigo:
+x = 1
+x = float(x)
+
+y = 3 * x**3 - 2 * x**2 + 3 * x - 5
+
+print("y =", y)
+
+- Explicacion:
+Se define la variable x como 1 y luego se convierte a flotante.
+Luego se calcula el valor de y usando la fórmula matemática.
+Finalmente se imprime el resultado.
